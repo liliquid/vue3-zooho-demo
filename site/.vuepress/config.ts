@@ -8,7 +8,7 @@ console.log(process.env);
 
 export default defineUserConfig({
     title:"前端组件库",
-    base: process.env.NODE_ENV === "production" ? "/vue3-component-demo/" : "/",
+    base: process.env.NODE_ENV === "production" ? "/vue3-zooho-demo/" : "/",
     plugins: [
         codeBlockPlugin()
     ],
